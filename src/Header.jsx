@@ -1,12 +1,13 @@
-import React from "react";
 import { 
     Text,
     ButtonGroup,
     Button,
     Box,
     VStack,
+    chakra,
+    useChakra,
 } from '@chakra-ui/react';
-import { css } from '@emotion/react';
+import { css } from '@chakra-ui/react';
 
 const filterStyle = {
   filter: 'brightness(80%) saturate(60%)',
@@ -16,7 +17,7 @@ const Header = () => {
     return(
         <Box
         style={filterStyle}
-        backgroundImage="url('assets\img\img011.jpg')"
+        backgroundImage={`url('src/img011.jpg')`}
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
         backgroundSize="cover"
