@@ -5,7 +5,6 @@ import {
     Box,
     VStack,
     chakra,
-    useChakra,
 } from '@chakra-ui/react';
 import { css } from '@chakra-ui/react';
 
@@ -17,7 +16,7 @@ const Header = () => {
     return(
         <Box
         style={filterStyle}
-        backgroundImage={`url('/../../../assets/img/img011.jpg')`}
+        backgroundImage={`url('./img011.jpg')`}
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
         backgroundSize="cover"
