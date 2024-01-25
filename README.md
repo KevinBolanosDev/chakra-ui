@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](Screenshot%202024-01-24%20at%2022-12-04%20Vite%20React.png)
+![](/src/img/Screenshot%202024-01-24%20at%2022-12-04%20Vite%20React.png)
 
 ### Links
 
