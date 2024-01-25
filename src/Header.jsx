@@ -16,7 +16,7 @@ const Header = () => {
     return(
         <Box
         style={filterStyle}
-        backgroundImage={`url('./img011.jpg')`}
+        backgroundImage={`url("../../src/assets/img/img011.jpg")`}
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
         backgroundSize="cover"
