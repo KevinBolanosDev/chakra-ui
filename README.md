@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/KevinBolanosDev/Chakra_UI)
-- Live Site URL: [Site Solution Netlify]()
+- Live Site URL: [Site Solution Netlify](https://project-bike-chakra-ui.netlify.app/)
 
 ## My process
 

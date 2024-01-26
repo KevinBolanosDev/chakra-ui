@@ -5,7 +5,6 @@ import {
     Box,
     VStack,
 } from '@chakra-ui/react';
-import { css } from '@chakra-ui/react';
 import Background from "./assets/img/img011.jpg";
 
 const filterStyle = {
