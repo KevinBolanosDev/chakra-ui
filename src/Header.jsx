@@ -4,24 +4,24 @@ import {
     Button,
     Box,
     VStack,
-    chakra,
 } from '@chakra-ui/react';
 import { css } from '@chakra-ui/react';
+import Background from "./assets/img/img011.jpg";
 
 const filterStyle = {
   filter: 'brightness(80%) saturate(60%)',
+  BackgroundImage: '{url()}'
 }
 
 const Header = () => {
     return(
         <Box
         style={filterStyle}
-        backgroundImage={`url("../../../assets/img/img011.jpg")`}
+        backgroundImage={`url(${Background})`}
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
         backgroundSize="cover"
         display="flex"
-        flexDirection="column"
         alignItems="center"
         justifyContent="center"
         height={{ base: "100%", md: "100%" }}
